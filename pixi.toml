@@ -1,0 +1,15 @@
+[project]
+channels = ["conda-forge"]
+description = "Add a short description here"
+name = "DataCleaning_Assignment1"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+pandas = ">=2.2.3,<3"
+numpy = ">=2.0.2,<3"
+scikit-learn = ">=1.6.1,<2"
+pip = ">=25.0,<26"
+ipykernel = ">=6.29.5,<7"
